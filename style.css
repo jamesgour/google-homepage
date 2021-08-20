@@ -30,7 +30,8 @@ a {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding: 16px;
+    /* align-items: center; */
 }
 
 .left-nav-links {
@@ -38,5 +39,25 @@ a {
 }
 
 .right-nav-links {
+    display: flex;
+}
+
+/* Started Working On Footer Early! */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-footer-links {
+    display: flex;
+}
+
+.center-footer-links {
+    display:flex;
+}
+
+.right-footer-links {
     display: flex;
 }
