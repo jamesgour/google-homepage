@@ -1,3 +1,4 @@
+/* CSS Reset */
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -27,19 +28,36 @@ a {
     color: black
 }
 
+/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
-    /* align-items: center; */
+    padding: 10px 0px 0px 10px;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar li {
+    padding-left: 14px;
+    padding-right: 8px;
 }
 
 .left-nav-links {
     display: flex;
+    font-size: 14px;
+
 }
 
 .right-nav-links {
     display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+/* Main Search Area */
+.main-area {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Started Working On Footer Early! */
@@ -48,10 +66,18 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+footer li {
+    padding-left: 14px;
+    padding-right: 8px;
 }
 
 .left-footer-links {
     display: flex;
+    padding: 8px;
 }
 
 .center-footer-links {
