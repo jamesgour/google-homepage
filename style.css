@@ -42,6 +42,18 @@ a {
     padding-right: 8px;
 }
 
+.navbar li:hover {
+    text-decoration: underline;
+}
+
+#apps-icon {
+    opacity: .55;
+}
+
+#apps-icon:hover {
+    opacity: .85;
+}
+
 .left-nav-links {
     display: flex;
     font-size: 14px;
@@ -66,16 +78,13 @@ a {
     padding-bottom: 25px;
 }
 
+/* TODO: clean up the search bar border & add icons, fix button hover (buttons move), call it quits!  */
+
 .search-bar {
     height: 45px;
     width: 575px;
     border-radius: 25px;
     font-size: 16px;
-    /* Need to fix border color issues!! Next Step is to push the footer down to 
-    the bottom and also to remove scrollbar!! */
-    border-top-color: rgb(221, 221, 221);
-    border-bottom-color: rgb(221, 221, 221);
-
 }
 
  .search-bar:hover{
@@ -111,18 +120,26 @@ a {
 
 /* Started Working On Footer Early! */
 
-.footer-area {
+/* .footer-area {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin-top: auto;
-}
+    background: #f2f2f2;
+} */
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    padding: 4px;
     font-size: 14px;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
 }
 
 footer li {
@@ -130,15 +147,17 @@ footer li {
     padding-right: 8px;
 }
 
+footer li:hover {
+    text-decoration: underline;
+}
+
 .left-footer-links {
+    color: #70757a;
     display: flex;
     padding: 8px;
 }
 
-.center-footer-links {
-    display:flex;
-}
-
 .right-footer-links {
+    color: #70757a;
     display: flex;
 }
